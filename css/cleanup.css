@@ -1,1 +1,14 @@
 /* write your override styles here */
+/* this captures a div with id="tag-1" */
+div .tag-1{
+    display: none;
+} 
+/* This captures tag-2 nested inside a div with id="wall" */
+#wall div#tag-2{
+    display: none;
+}
+/* this gets all the divs with class parent */
+/* tag-4, tag-5, tag-6, tag-7 */
+.parent {
+    display: none;
+}
